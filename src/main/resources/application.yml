@@ -1,0 +1,6 @@
+resilience4j.ratelimiter:
+  instances:
+    getMessage:
+      limitForPeriod: 2
+      limitRefreshPeriod: 5s
+      timeoutDuration: 0
